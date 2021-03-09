@@ -1,0 +1,47 @@
+h1{
+    margin: auto;
+}
+
+#navbar 	{
+
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+
+}
+.main-section {
+    display: block;
+    width: 100%;
+    margin-left: 30%;
+    left: 100px;
+
+}
+
+a {
+    position: relative;
+    text-decoration: none;
+}
+
+a::before {
+    content: "";
+    position: absolute;            
+    height: 3px;
+    right: 0px;
+    bottom: -3px;
+    left: 0px;
+    background-color: pink;
+}
+
+@media only screen and (min-width:240px) and (max-width:768px){
+
+    #navbar 	{
+
+        display: flex;
+        flex-direction: column;
+    
+    } 
+
+
+    
+
+}
